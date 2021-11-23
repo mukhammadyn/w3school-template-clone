@@ -552,4 +552,9 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+.portfolio-section {
+  width: 1300px;
+  margin-left: 300px;
+}
 /*# sourceMappingURL=main.css.map */
