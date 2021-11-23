@@ -508,6 +508,31 @@ img {
   border-bottom: 6px solid #cccccc;
 }
 
+.site-header__top {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.site-header__top-button {
+  border: none;
+  background-color: transparent;
+  font-size: 36px;
+}
+
+.site-header__top-link {
+  margin-left: auto;
+}
+
+.site-header__top-logo {
+  display: block;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 50%;
+}
+
 .site-header__heading {
   margin-top: 0;
   margin-bottom: 32px;
@@ -569,6 +594,14 @@ img {
 .site-header__filter-item--active
 .site-header__filter-button-icon {
   color: #fff;
+}
+
+@media only screen and (max-width: 992px) {
+  .site-header__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 @media only screen and (max-width: 600px) {

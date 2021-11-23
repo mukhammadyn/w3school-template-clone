@@ -4,6 +4,28 @@
   border-bottom: 6px solid $color-cerebral-grey;
 }
 
+.site-header__top {
+  display: none;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.site-header__top-button {
+  border: none;
+  background-color: transparent;
+  font-size: 36px;
+}
+
+.site-header__top-link {
+  margin-left: auto;
+}
+
+.site-header__top-logo {
+  display: block;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
 .site-header__heading {
   margin-top: 0;
   margin-bottom: 32px;
@@ -62,6 +84,14 @@
   color: #fff;
 }
 
+
+@include breakpoint-down (992px) {
+
+  .site-header__top {
+    display: flex;
+  }
+
+}
 
 @include breakpoint-down (600px) {
 
