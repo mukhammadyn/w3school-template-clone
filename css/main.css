@@ -546,4 +546,10 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+.site-content {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*# sourceMappingURL=main.css.map */
