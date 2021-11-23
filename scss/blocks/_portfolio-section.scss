@@ -1,4 +1,25 @@
 .portfolio-section {
-  width: 1300px;
+  max-width: 1300px;
   margin-left: 300px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.ul {
+  @include list-unstyled;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.li {
+  width: 428px;
+  height: 90px;
+}
+
+@include breakpoint-down (992px) {
+
+  .portfolio-section {
+    margin-left: 0;
+  }
+
 }

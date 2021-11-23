@@ -343,144 +343,64 @@ template {
 
 /* FONTS */
 @font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-BlackItalic.woff2") format("woff2"), url("../font/raleway/Jost-BlackItalic.woff") format("woff");
+  font-family: 'Raleway';
+  src: url("../font/raleway/Raleway-Bold.woff2") format("woff2"), url("../font/raleway/Raleway-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../font/raleway/Raleway-Black.woff2") format("woff2"), url("../font/raleway/Raleway-Black.woff") format("woff");
   font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-Black.woff2") format("woff2"), url("../font/raleway/Jost-Black.woff") format("woff");
-  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-Bold.woff2") format("woff2"), url("../font/raleway/Jost-Bold.woff") format("woff");
+  font-family: 'Raleway';
+  src: url("../font/raleway/Raleway-ExtraBold.woff2") format("woff2"), url("../font/raleway/Raleway-ExtraBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-BoldItalic.woff2") format("woff2"), url("../font/raleway/Jost-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-ExtraLight.woff2") format("woff2"), url("../font/raleway/Jost-ExtraLight.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-ExtraBold.woff2") format("woff2"), url("../font/raleway/Jost-ExtraBold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-ExtraBoldItalic.woff2") format("woff2"), url("../font/raleway/Jost-ExtraBoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-Thin.woff2") format("woff2"), url("../font/raleway/Jost-Thin.woff") format("woff");
+  font-family: 'Raleway';
+  src: url("../font/raleway/Raleway-Thin.woff2") format("woff2"), url("../font/raleway/Raleway-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-Italic.woff2") format("woff2"), url("../font/raleway/Jost-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-Light.woff2") format("woff2"), url("../font/raleway/Jost-Light.woff") format("woff");
+  font-family: 'Raleway';
+  src: url("../font/raleway/Raleway-Light.woff2") format("woff2"), url("../font/raleway/Raleway-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-MediumItalic.woff2") format("woff2"), url("../font/raleway/Jost-MediumItalic.woff") format("woff");
+  font-family: 'Raleway';
+  src: url("../font/raleway/Raleway-Medium.woff2") format("woff2"), url("../font/raleway/Raleway-Medium.woff") format("woff");
   font-weight: 500;
-  font-style: italic;
+  font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-SemiBoldItalic.woff2") format("woff2"), url("../font/raleway/Jost-SemiBoldItalic.woff") format("woff");
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-LightItalic.woff2") format("woff2"), url("../font/raleway/Jost-LightItalic.woff") format("woff");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-ThinItalic.woff2") format("woff2"), url("../font/raleway/Jost-ThinItalic.woff") format("woff");
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-Regular.woff2") format("woff2"), url("../font/raleway/Jost-Regular.woff") format("woff");
+  font-family: 'Raleway';
+  src: url("../font/raleway/Raleway-Regular.woff2") format("woff2"), url("../font/raleway/Raleway-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-ExtraLightItalic.woff2") format("woff2"), url("../font/raleway/Jost-ExtraLightItalic.woff") format("woff");
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-Medium.woff2") format("woff2"), url("../font/raleway/Jost-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url("../font/raleway/Jost-SemiBold.woff2") format("woff2"), url("../font/raleway/Jost-SemiBold.woff") format("woff");
+  font-family: 'Raleway';
+  src: url("../font/raleway/Raleway-SemiBold.woff2") format("woff2"), url("../font/raleway/Raleway-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -548,13 +468,112 @@ img {
 }
 
 .site-content {
-  max-width: 1600px;
+  max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .portfolio-section {
-  width: 1300px;
+  max-width: 1300px;
   margin-left: 300px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.li {
+  width: 428px;
+  height: 90px;
+}
+
+@media only screen and (max-width: 992px) {
+  .portfolio-section {
+    margin-left: 0;
+  }
+}
+
+.site-header {
+  padding-top: 10px;
+  padding-bottom: 16px;
+  border-bottom: 6px solid #cccccc;
+}
+
+.site-header__heading {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.site-header__filter-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site-header__filter-heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20px;
+  font-weight: 400;
+}
+
+.site-header__filter-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.site-header__filter-item:not(:last-child) {
+  margin-right: 4px;
+}
+
+.site-header__filter-button {
+  padding: 8px 16px;
+  border-color: transparent;
+  border-radius: 0;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.site-header__filter-button:hover {
+  background-color: #cccccc;
+}
+
+.site-header__filter-item--active
+.site-header__filter-button {
+  color: #fff;
+  background-color: #000000;
+}
+
+.site-header__filter-button-icon {
+  margin-right: 12px;
+}
+
+.site-header__filter-item--active
+.site-header__filter-button-icon {
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .site-header__filter-item:nth-child(1n + 3) {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */

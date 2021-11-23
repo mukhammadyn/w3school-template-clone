@@ -1,161 +1,71 @@
 /* FONTS */
 @font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-BlackItalic.woff2') format('woff2'),
-      url('../font/raleway/Jost-BlackItalic.woff') format('woff');
+  font-family: 'Raleway';
+  src: url('../font/raleway/Raleway-Bold.woff2') format('woff2'),
+      url('../font/raleway/Raleway-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../font/raleway/Raleway-Black.woff2') format('woff2'),
+      url('../font/raleway/Raleway-Black.woff') format('woff');
   font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-Black.woff2') format('woff2'),
-      url('../font/raleway/Jost-Black.woff') format('woff');
-  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-Bold.woff2') format('woff2'),
-      url('../font/raleway/Jost-Bold.woff') format('woff');
+  font-family: 'Raleway';
+  src: url('../font/raleway/Raleway-ExtraBold.woff2') format('woff2'),
+      url('../font/raleway/Raleway-ExtraBold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-BoldItalic.woff2') format('woff2'),
-      url('../font/raleway/Jost-BoldItalic.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-ExtraLight.woff2') format('woff2'),
-      url('../font/raleway/Jost-ExtraLight.woff') format('woff');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-ExtraBold.woff2') format('woff2'),
-      url('../font/raleway/Jost-ExtraBold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-ExtraBoldItalic.woff2') format('woff2'),
-      url('../font/raleway/Jost-ExtraBoldItalic.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-Thin.woff2') format('woff2'),
-      url('../font/raleway/Jost-Thin.woff') format('woff');
+  font-family: 'Raleway';
+  src: url('../font/raleway/Raleway-Thin.woff2') format('woff2'),
+      url('../font/raleway/Raleway-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-Italic.woff2') format('woff2'),
-      url('../font/raleway/Jost-Italic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-Light.woff2') format('woff2'),
-      url('../font/raleway/Jost-Light.woff') format('woff');
+  font-family: 'Raleway';
+  src: url('../font/raleway/Raleway-Light.woff2') format('woff2'),
+      url('../font/raleway/Raleway-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-MediumItalic.woff2') format('woff2'),
-      url('../font/raleway/Jost-MediumItalic.woff') format('woff');
+  font-family: 'Raleway';
+  src: url('../font/raleway/Raleway-Medium.woff2') format('woff2'),
+      url('../font/raleway/Raleway-Medium.woff') format('woff');
   font-weight: 500;
-  font-style: italic;
+  font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-SemiBoldItalic.woff2') format('woff2'),
-      url('../font/raleway/Jost-SemiBoldItalic.woff') format('woff');
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-LightItalic.woff2') format('woff2'),
-      url('../font/raleway/Jost-LightItalic.woff') format('woff');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-ThinItalic.woff2') format('woff2'),
-      url('../font/raleway/Jost-ThinItalic.woff') format('woff');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-Regular.woff2') format('woff2'),
-      url('../font/raleway/Jost-Regular.woff') format('woff');
+  font-family: 'Raleway';
+  src: url('../font/raleway/Raleway-Regular.woff2') format('woff2'),
+      url('../font/raleway/Raleway-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-ExtraLightItalic.woff2') format('woff2'),
-      url('../font/raleway/Jost-ExtraLightItalic.woff') format('woff');
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-Medium.woff2') format('woff2'),
-      url('../font/raleway/Jost-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Jost';
-  src: url('../font/raleway/Jost-SemiBold.woff2') format('woff2'),
-      url('../font/raleway/Jost-SemiBold.woff') format('woff');
+  font-family: 'Raleway';
+  src: url('../font/raleway/Raleway-SemiBold.woff2') format('woff2'),
+      url('../font/raleway/Raleway-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
