@@ -26,7 +26,7 @@
 }
 
 .main-content__contact {
-  padding: 16px;
+  padding: 16px 16px 32px 16px;
   background-color: $color-mortar-grey;
 }
 
@@ -72,6 +72,45 @@
 
 .main-content__contact-link-txt {
   margin-top: 14px;
+}
+
+.main-content__contact-line {
+  margin-top: 32px;
+  margin-bottom: 26px;
+}
+
+.main-content__form {
+}
+
+.main-content__form-control {
+  display: flex;
+  flex-direction: column;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+.main-content__form-input {
+  min-height: 40px;
+  padding: 8px;
+  border: 1px solid $color-cerebral-grey;
+}
+
+.main-content__form-input--message {
+  max-height: 40px;
+  resize: none;
+}
+
+.main-content__form-submit {
+  padding: 12px 16px;
+  border: none;
+  color: #fff;
+  background-color: $color-primary;
+}
+
+.main-content__form-submit-text {
+  margin-left: 16px;
 }
 
 

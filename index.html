@@ -484,6 +484,41 @@
 
           </ul>
 
+          <hr class="main-content__contact-line"></hr>
+
+          <form class="main-content__form" action="https://echo.htmlacademy.ru" method="post">
+
+            <div class="main-content__form-control">
+
+              <label for="name">Name</label>
+              <input class="main-content__form-input" type="text" id="name" name="name" required>
+
+            </div>
+
+            <div class="main-content__form-control">
+
+              <label for="email">Email</label>
+              <input class="main-content__form-input" type="email" id="email" name="email" pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" required>
+
+            </div>
+
+            <div class="main-content__form-control">
+
+              <label for="message">Message</label>
+              <textarea class="main-content__form-input main-content__form-input--message" name="message" id="message" required></textarea>
+
+            </div>
+
+            <button class="main-content__form-submit" type="submit">
+
+              <i class="fa fa-paper-plane"></i>
+
+              <span class="main-content__form-submit-text">Send message</span>
+
+            </button>
+
+          </form>
+
         </section>
         
       </section>
