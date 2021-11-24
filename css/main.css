@@ -520,8 +520,9 @@ img {
 .site-header__heading {
   margin-top: 0;
   margin-bottom: 32px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 36px;
+  text-transform: capitalize;
 }
 
 .site-header__filter-buttons {
@@ -611,6 +612,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 36px;
 }
 
 .main-content__about-me-img {
@@ -735,5 +737,104 @@ img {
 .pagination__button--active {
   color: #fff;
   background-color: #000000;
+}
+
+.about-me__content {
+  margin-bottom: 32px;
+}
+
+.about-me__title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.about-me__text {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.about-me__line {
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.about-me__knowledge:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.about-me__knowledge:nth-child(4) {
+  margin-bottom: 24px;
+}
+
+.about-me__skills {
+  margin-bottom: 32px;
+}
+
+.about-me__skills-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.about-me__knowledge-heading {
+  margin-top: 0;
+  margin-bottom: 14px;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.about-me__knowledge-pgorgress-wrapper {
+  height: 38px;
+  position: relative;
+  z-index: 1;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #cccccc;
+}
+
+.about-me__knowledge-pgorgress {
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  text-align: center;
+  color: #fff;
+  background-color: #616161;
+}
+
+.about-me__knowledge-pgorgress--photography {
+  width: 95%;
+}
+
+.about-me__knowledge-pgorgress--web-design {
+  width: 85%;
+}
+
+.about-me__knowledge-pgorgress--photoshop {
+  width: 80%;
+}
+
+.about-me__download-resume {
+  display: inline-block;
+  padding: 10px 24px;
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease, background-color 0.2s ease;
+  transition: color 0.2s ease, background-color 0.2s ease;
+  color: #fff;
+  background-color: #616161;
+}
+
+.about-me__download-resume:hover {
+  color: #000000;
+  background-color: #cccccc;
+}
+
+.about-me__download-resume-txt {
+  margin-left: 16px;
 }
 /*# sourceMappingURL=main.css.map */
