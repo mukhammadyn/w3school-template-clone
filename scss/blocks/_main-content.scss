@@ -1,11 +1,44 @@
-.main-content {
-  padding-bottom: 32px;
-}
+// .main-content {
+// }
 
 .main-content__pictures {
   padding-top: 16px;
+  padding-bottom: 48px;
 }
 
 .main-content__pictures-pagination {
-  margin-top: 32px;
+  margin-top: 48px;
 }
+
+.main-content__about-me {
+  padding-bottom: 60px;
+}
+
+.main-content__about-me-images {
+  display: flex;
+}
+
+.main-content__about-me-img {
+  max-height: 314px;
+
+  &:not(:last-child) {
+    margin-right: 16px;
+  }
+}
+
+@include breakpoint-down (705px) {
+
+  .main-content__about-me-images {
+    flex-direction: column;
+  }
+
+  .main-content__about-me-img {
+    width: 100%;
+  
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+  }
+
+}
+

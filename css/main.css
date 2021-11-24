@@ -594,16 +594,46 @@ img {
   }
 }
 
-.main-content {
-  padding-bottom: 32px;
-}
-
 .main-content__pictures {
   padding-top: 16px;
+  padding-bottom: 48px;
 }
 
 .main-content__pictures-pagination {
-  margin-top: 32px;
+  margin-top: 48px;
+}
+
+.main-content__about-me {
+  padding-bottom: 60px;
+}
+
+.main-content__about-me-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-content__about-me-img {
+  max-height: 314px;
+}
+
+.main-content__about-me-img:not(:last-child) {
+  margin-right: 16px;
+}
+
+@media only screen and (max-width: 705px) {
+  .main-content__about-me-images {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-content__about-me-img {
+    width: 100%;
+  }
+  .main-content__about-me-img:not(:last-child) {
+    margin-right: 0;
+  }
 }
 
 .pictures-list {
