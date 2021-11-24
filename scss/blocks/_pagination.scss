@@ -1,0 +1,27 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination__button {
+  padding: 8px 16px;
+  border: none;
+  transition: background-color 0.2s ease,
+  color 0.2s ease;
+  background-color: transparent;
+  cursor: pointer;
+
+  &:hover {
+    color: #fff;
+    background-color: $color-primary;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}
+
+.pagination__button--active {
+  color: #fff;
+  background-color: $color-primary;
+}
