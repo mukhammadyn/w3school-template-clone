@@ -1,7 +1,5 @@
 .site-header {
-  padding-top: 10px;
-  padding-bottom: 16px;
-  border-bottom: 6px solid $color-cerebral-grey;
+  padding: 10px 16px 0 16px;
 }
 
 .site-header__top {
@@ -37,6 +35,8 @@
 .site-header__filter-buttons {
   display: flex;
   align-items: center;
+  padding-bottom: 16px;
+  border-bottom: 6px solid $color-cerebral-grey;
 }
 
 .site-header__filter-heading {

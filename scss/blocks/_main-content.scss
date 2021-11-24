@@ -1,6 +1,5 @@
 .main-content__pictures {
-  padding-top: 16px;
-  padding-bottom: 48px;
+  padding: 16px 16px 48px 16px;
 }
 
 .main-content__pictures-pagination {
@@ -9,6 +8,8 @@
 
 .main-content__about-me {
   padding-bottom: 60px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .main-content__about-me-images {
@@ -24,6 +25,56 @@
   }
 }
 
+.main-content__contact {
+  padding: 16px;
+  background-color: $color-mortar-grey;
+}
+
+.main-conent__contact-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.main-content__contact-list {
+  @include list-unstyled;
+  display: flex;
+} 
+
+.main-content__contact-item {
+  width: calc(100% / 3);
+}
+
+.main-content__contact-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-decoration: none;
+  color: #fff;
+  background-color: $color-kettleman;
+}
+
+.main-content__contact-item--location
+.main-content__contact-link {
+  background-color: $color-secondary;
+}
+
+.main-content__contact-link i {
+  
+  &::before {
+    font-size: 36px;
+  }
+}
+
+.main-content__contact-link-txt {
+  margin-top: 14px;
+}
+
+
 @include breakpoint-down (705px) {
 
   .main-content__about-me-images {
@@ -36,6 +87,18 @@
     &:not(:last-child) {
       margin-right: 0;
     }
+  }
+
+}
+
+@include breakpoint-down (600px) {
+
+  .main-content__contact-list {
+    flex-direction: column;
+  } 
+  
+  .main-content__contact-item {
+    width: 100%;
   }
 
 }
