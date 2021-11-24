@@ -5,17 +5,6 @@
   padding-right: 16px;
 }
 
-.ul {
-  @include list-unstyled;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.li {
-  width: 428px;
-  height: 90px;
-}
-
 @include breakpoint-down (992px) {
 
   .portfolio-section {
