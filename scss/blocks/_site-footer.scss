@@ -74,6 +74,14 @@
   background-color: $color-primary;
 }
 
+.site-footer__bottom {
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: $color-primary;
+}
+
 @include breakpoint-down (705px) {
 
   .site-footer__content {

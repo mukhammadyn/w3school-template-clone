@@ -1141,6 +1141,18 @@ img {
   background-color: #000000;
 }
 
+.site-footer__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #000000;
+}
+
 @media only screen and (max-width: 705px) {
   .site-footer__content {
     -ms-flex-wrap: wrap;
@@ -1155,6 +1167,10 @@ img {
   .site-footer__content-wrapper {
     width: 100%;
   }
+}
+
+.powered-by {
+  color: #fff;
 }
 
 .powered-by__link {
