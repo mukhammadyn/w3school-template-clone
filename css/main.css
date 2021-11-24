@@ -767,10 +767,10 @@ img {
 }
 
 .about-me__skills {
-  margin-bottom: 32px;
+  margin-bottom: 46px;
 }
 
-.about-me__skills-title {
+.about-me__secondary-title {
   margin-top: 0;
   margin-bottom: 16px;
   font-weight: 400;
@@ -836,5 +836,122 @@ img {
 
 .about-me__download-resume-txt {
   margin-left: 16px;
+}
+
+.about-me__charge-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -16px;
+}
+
+.about-me__charge-item {
+  width: calc(100% / 3 - 16px);
+  margin-left: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-me__charge-list {
+    margin-bottom: -16px;
+  }
+  .about-me__charge-item {
+    width: 100%;
+  }
+  .about-me__charge-item:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+.charge-card {
+  border: 1px solid #ddd;
+  opacity: 0.7;
+}
+
+.charge-card:hover {
+  opacity: 1;
+}
+
+.charge-card__header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: #fff;
+  background-color: #000000;
+}
+
+.charge-card__header--pro {
+  background-color: #009688;
+}
+
+.charge-card__heading {
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.charge-card__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+}
+
+.charge-card__item {
+  padding: 16px 16px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.charge-card__item--prise {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.charge-card__item-price {
+  margin: 10px 0;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.charge-card__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 24px 16px;
+}
+
+.charge-card__btn {
+  padding: 13px 24px;
+  border: none;
+  text-transform: capitalize;
+  -webkit-transition: color 0.2s ease, background-color 0.2s ease;
+  transition: color 0.2s ease, background-color 0.2s ease;
+  color: #fff;
+  background-color: #009688;
+  cursor: pointer;
+}
+
+.charge-card__btn:hover {
+  background-color: #000000;
 }
 /*# sourceMappingURL=main.css.map */

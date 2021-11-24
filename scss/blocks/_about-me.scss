@@ -1,7 +1,3 @@
-// .about-me {
-
-// }
-
 .about-me__content {
   margin-bottom: 32px;
 }
@@ -33,10 +29,10 @@
 }
 
 .about-me__skills {
-  margin-bottom: 32px;
+  margin-bottom: 46px;
 }
 
-.about-me__skills-title {
+.about-me__secondary-title {
   margin-top: 0;
   margin-bottom: 16px;
   font-weight: 400;
@@ -102,4 +98,32 @@
 
 .about-me__download-resume-txt {
   margin-left: 16px;
+}
+
+.about-me__charge-list {
+  @include list-unstyled;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -16px;
+}
+
+.about-me__charge-item {
+  width: calc(100% / 3 - 16px);
+  margin-left: 16px;
+}
+
+@include breakpoint-down (600px) {
+
+  .about-me__charge-list {
+    margin-bottom: -16px;
+  }
+
+  .about-me__charge-item {
+    width: 100%;
+
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+
 }

@@ -1,0 +1,71 @@
+.charge-card {
+  border: 1px solid #ddd;
+  opacity: 0.7;
+
+  &:hover {
+    opacity: 1;
+  }  
+}
+
+.charge-card__header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: #fff;
+  background-color: $color-primary;
+}
+
+.charge-card__header--pro {
+  background-color: $color-secondary;
+}
+
+.charge-card__heading {
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.charge-card__list {
+  @include list-unstyled;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.charge-card__item {
+  padding: 16px 16px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.charge-card__item--prise {
+  display: flex;
+  flex-direction: column;
+}
+
+.charge-card__item-price {
+  margin: 10px 0;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.charge-card__footer {
+  display: flex;
+  justify-content: center;
+  padding: 24px 16px;
+}
+
+.charge-card__btn {
+  padding: 13px 24px;
+  border: none;
+  text-transform: capitalize; 
+  transition: color 0.2s ease,
+  background-color 0.2s ease;
+  color: #fff;
+  background-color: $color-secondary;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-primary;
+  }
+}
