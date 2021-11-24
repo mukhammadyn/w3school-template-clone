@@ -1,6 +1,7 @@
 .portfolio-section {
   max-width: 1300px;
   margin-left: 300px;
+  transition: margin-left 0.3s ease;
 }
 
 @include breakpoint-down (992px) {
