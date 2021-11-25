@@ -1,5 +1,8 @@
 .portfolio-section {
   max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   margin-left: 300px;
   transition: margin-left 0.3s ease;
 }

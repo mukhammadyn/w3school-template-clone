@@ -3,6 +3,7 @@ const elsNavButton = document.querySelectorAll('.js-nav-button')
 // site nav
 const elSiteNav = document.querySelector('.site-nav')
 
+// site-nav toggler function
 function siteNavOpenerAndCloser (evt) {
 
   console.log(evt.target.matches('.js-nav-button-closer')); 
