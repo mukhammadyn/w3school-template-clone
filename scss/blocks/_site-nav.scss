@@ -1,0 +1,170 @@
+.site-nav {
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  background-color: #fff;
+}
+
+.site-nav__content {
+  padding-top: 24px;
+}
+
+.site-nav__header {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.site-nav__header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-nav__logo-link {
+  text-decoration: none;
+}
+
+.site-nav__logo {
+  display: block;
+  border-radius: 4px;
+}
+
+.site-nav__close-btn {
+  display: none;
+  position: relative;
+  z-index: 1;
+  padding: 27px 25px;
+  border: none;
+  background-color: transparent;
+
+  &::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    content: '';
+  }
+}
+
+.site-nav__close-btn i {
+
+  &::before {
+    font-size: 50px;
+  }
+}
+
+.site-nav__heading {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.site-nav__template-author {
+  color: #757575;
+}
+
+.site-nav__navigation-list {
+  @include list-unstyled;
+}
+
+.site-nav__navigation-link {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: color 0.2s ease,
+  background-color 0.2s ease;
+  color: $color-primary;
+
+  &:hover {
+    color: $color-primary;
+    background-color: $color-cerebral-grey;
+  }
+}
+
+.site-nav__navigation-link--active {
+  color: $color-secondary;
+}
+
+.site-nav__navigation-link i {
+  width: 20px;
+  height: 15px;
+  margin-right: 16px;
+  text-align: left;
+}
+
+.site-nav__navigation-txt {
+  text-transform: uppercase;  
+}
+
+.site-nav__social-list {
+  @include list-unstyled;
+  display: flex;
+  margin-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.site-nav__social-item {
+
+  &:not(:last-child) {
+    margin-right: 3px;
+  }
+}
+
+.site-nav__social-link {  
+  color: $color-primary;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.site-nav__social-link i {
+
+  &::before {
+    font-size: 18px;
+  }
+}
+
+@include breakpoint-down (992px) {
+
+  .site-nav {
+    display: none;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+  }
+
+  .site-nav__content {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+  }
+
+  .site-nav--open {
+    display: block;
+  }
+
+  .site-nav__close-btn {
+    display: block;
+  }
+
+}
+
+@include breakpoint-down (320px) {
+  
+  .site-nav__content {
+    width: 100%;
+  }
+
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="page" lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +8,134 @@
   <link rel="stylesheet" href="css/icons.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
+<body class="page__body">
 
   <div class="site-content">
+
+    <!-- NAVIGATION -->
+    <nav class="site-nav">
+
+      <div class="site-nav__dialog">
+
+        <div class="site-nav__content">
+
+          <header class="site-nav__header">
+
+            <div class="site-nav__header-top">
+
+              <a class="site-nav__logo-link" href="#">
+                <img class="site-nav__logo" src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="" width="120" height="120">
+              </a>
+  
+              <button class="site-nav__close-btn js-nav-button js-nav-button-closer" type="button">
+                <i class="fa fa-remove"></i>
+              </button>
+
+            </div>
+
+            <div class="site-nav__header-content">
+
+              <h2 class="site-nav__heading">Portfolio</h2>
+              <p class="site-nav__template-author">Template by W3.CSS</p>
+
+            </div>
+
+          </header>
+
+
+          <ul class="site-nav__navigation-list">
+
+
+            <li class="site-nav__navigation-item">
+              <a class="site-nav__navigation-link site-nav__navigation-link--active" href="#portfolio">
+
+                <i class="fa fa-th-large fa-fw"></i>
+                <span class="site-nav__navigation-txt">Portfolio</span>
+
+              </a>
+            </li>
+
+            <li class="site-nav__navigation-item">
+              <a class="site-nav__navigation-link" href="#about">
+
+                <i class="fa fa-user"></i>
+                <span class="site-nav__navigation-txt">About</span>
+
+              </a>
+            </li>
+
+            <li class="site-nav__navigation-item">
+              <a class="site-nav__navigation-link" href="#contact">
+
+                <i class="fa fa-envelope"></i>
+                <span class="site-nav__navigation-txt">Contact</span>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+
+          <ul class="site-nav__social-list">
+
+
+            <li class="site-nav__social-item">
+              
+              <a class="site-nav__social-link" href="#" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+
+            </li>
+
+            <li class="site-nav__social-item">
+
+              <a class="site-nav__social-link" href="#" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+
+            </li>
+
+            <li class="site-nav__social-item">
+
+              <a class="site-nav__social-link" href="#" target="_blank">
+                <i class="fab fa-snapchat"></i>
+              </a>
+
+            </li>
+
+            <li class="site-nav__social-item">
+
+              <a class="site-nav__social-link" href="#" target="_blank">
+                <i class="fab fa-pinterest-p"></i>
+              </a>
+
+            </li>
+
+            <li class="site-nav__social-item">
+
+              <a class="site-nav__social-link" href="#" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+
+            </li>
+
+            <li class="site-nav__social-item">
+
+              <a class="site-nav__social-link" href="#" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+
+            </li>
+
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </nav>
 
     <!-- MAIN CONTENT -->
     <main class="portfolio-section">
@@ -22,7 +147,7 @@
         <!-- NAV TOGGLER. VISIBLE ON SMALL DEVICE -->
         <div class="site-header__top">
 
-          <button class="site-header__top-button">
+          <button class="site-header__top-button js-nav-button">
             <i class="fa fa-bars"></i>
           </button>
 
@@ -32,7 +157,7 @@
 
         </div>
 
-        <h2 class="site-header__heading">My portfolio</h2>
+        <h2 class="site-header__heading" id="portfolio">My portfolio</h2>
 
 
         <div class="site-header__filter-buttons">
@@ -234,7 +359,7 @@
         <!-- ABOUT ME -->
         <section class="main-content__about-me">
 
-          <h3 class="visually-hidden">About me and my technical skills</h3>
+          <h3 class="visually-hidden" id="about">About me and my technical skills</h3>
 
           <!-- About me images -->
           <div class="main-content__about-me-images">
@@ -267,7 +392,7 @@
 
                 <div class="about-me__knowledge-pgorgress-wrapper">
 
-                  <div class="about-me__knowledge-pgorgress about-me__knowledge-pgorgress--photography" aria-label="level of knowledge">95%</div>
+                  <div class="about-me__knowledge-pgorgress about-me__knowledge-pgorgress--photography">95%</div>
 
                 </div>
 
@@ -279,7 +404,7 @@
 
                 <div class="about-me__knowledge-pgorgress-wrapper">
 
-                  <div class="about-me__knowledge-pgorgress about-me__knowledge-pgorgress--web-design" aria-label="level of knowledge">85%</div>
+                  <div class="about-me__knowledge-pgorgress about-me__knowledge-pgorgress--web-design">85%</div>
 
                 </div>
 
@@ -291,7 +416,7 @@
 
                 <div class="about-me__knowledge-pgorgress-wrapper">
 
-                  <div class="about-me__knowledge-pgorgress about-me__knowledge-pgorgress--photoshop" aria-label="level of knowledge">80%</div>
+                  <div class="about-me__knowledge-pgorgress about-me__knowledge-pgorgress--photoshop">80%</div>
 
                 </div>
 
@@ -440,7 +565,7 @@
         <!-- CONTACT ME -->
         <section class="main-content__contact">
 
-          <h3 class="main-conent__contact-title">Contact me</h3>
+          <h3 class="main-content__contact-title" id="contact">Contact me</h3>
 
           <ul class="main-content__contact-list">
 
@@ -484,7 +609,7 @@
 
           </ul>
 
-          <hr class="main-content__contact-line"></hr>
+          <hr class="main-content__contact-line">
 
           <form class="main-content__form" action="https://echo.htmlacademy.ru" method="post">
 
@@ -633,6 +758,6 @@
 
   </div>
 
-
+  <script src="js/main.js"></script>
 </body>
 </html>
