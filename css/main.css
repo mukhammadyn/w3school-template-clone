@@ -562,8 +562,8 @@ img {
 }
 
 .site-header__filter-list {
-  padding: 0;
   margin: 0;
+  padding: 0;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -643,6 +643,7 @@ img {
 }
 
 .main-content__about-me-img {
+  width: calc(100% / 2);
   max-height: 314px;
 }
 
@@ -664,8 +665,8 @@ img {
 }
 
 .main-content__contact-list {
-  padding: 0;
   margin: 0;
+  padding: 0;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -784,8 +785,8 @@ img {
 }
 
 .pictures-list {
-  padding: 0;
   margin: 0;
+  padding: 0;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -984,8 +985,8 @@ img {
 }
 
 .about-me__charge-list {
-  padding: 0;
   margin: 0;
+  padding: 0;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1040,8 +1041,8 @@ img {
 }
 
 .charge-card__list {
-  padding: 0;
   margin: 0;
+  padding: 0;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1127,8 +1128,8 @@ img {
 }
 
 .site-footer__content-list {
-  padding: 0;
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -1290,8 +1291,8 @@ img {
 }
 
 .site-nav__navigation-list {
-  padding: 0;
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -1325,8 +1326,8 @@ img {
 }
 
 .site-nav__social-list {
-  padding: 0;
   margin: 0;
+  padding: 0;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;

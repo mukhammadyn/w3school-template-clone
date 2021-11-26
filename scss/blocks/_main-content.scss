@@ -22,6 +22,7 @@
 }
 
 .main-content__about-me-img {
+  width: calc(100% / 2);
   max-height: 314px;
 
   &:not(:last-child) {
